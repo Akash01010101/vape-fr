@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
+function Iqos() {
+  return (
+    <div>
+    <Navbar/>
+    <div>Products go here</div>
+    <Footer/>
+</div>
+  )
+}
+
+export default Iqos
