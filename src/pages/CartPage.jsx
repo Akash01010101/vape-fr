@@ -42,7 +42,7 @@ function CartPage() {
     return (  
         <div>  
             <Navbar />  
-            <div className="cart-page" style={{ padding: '20px' }}>  
+            <div className="cart-page" style={{ padding: '20px',marginBottom:'100px' }}>  
                 <h1>Your Cart</h1>  
                 {cartProducts.map(product => (  
                     <div key={product.id + product.color} style={{ borderBottom: '1px solid #ccc', padding: '10px 0', display: 'flex', alignItems: 'center' }}>  
@@ -50,7 +50,7 @@ function CartPage() {
                         <div style={{ flexGrow: 1 }}>  
                             <h2 style={{ margin: 0 }}>{product.title}</h2>  
                             <p>Price: {product.price2 || product.price}</p>  
-                            <p>Selected Color: {product.color}</p>  
+                            {product.color?(<p>Selected Color: {product.color}</p>  ):(<></>)}
                             <p>Quantity: {product.quantity}</p>  
                         </div>  
                         <button   
@@ -65,6 +65,7 @@ function CartPage() {
                         >  
                             Remove  
                         </button>  
+                        
                     </div>  
                 ))}  
             </div>  

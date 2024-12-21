@@ -97,28 +97,13 @@ box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
   transform: translateY(-10px);  
   cursor: pointer;
 }
-.menu-list {  
-  list-style: none; /* Remove bullet points */  
-  display: flex;  
-  flex-wrap: wrap;  /* Align items in a row */  
-  justify-content:center; /* Space between menu items */  
-  padding: 0;      /* Remove default padding */  
-  margin: 0;       /* Remove default margin */  
-}  
-
-.menu-list li {  
-  border-left: 1px solid rgba(87, 87, 87, 0.623);
-  border-right: 1px solid rgba(87, 87, 87, 0.623);
-  padding-left: 10px;
-  padding-right: 10px;
-  color: rgb(212, 212, 212);   /* Set text color to white */  
-  margin: 0 15px; /* Spacing between items */  
-  font-size: 14px; /* Adjust font size */  
-  cursor: pointer; /* Change cursor */  
-  position: relative;
-  margin-right: 10px;
-  margin-top: 20px; /* For dropdown indicator */  
-}  
+nav{
+  z-index: 1;
+}
+.cards{
+  z-index: 0;
+}
+ 
 
 .menu-list li:hover {  
   color: white; /* Underline on hover */  
@@ -131,11 +116,50 @@ box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);
   justify-content: space-evenly;
   margin-top: 10px;
 }
+#menu{
+  position: fixed;
+  left: 0;
+  top:10vh;
+  bottom: 0;
+  background-color: black;
+  transition: transform 0.5s ease, opacity 0.5s ease; 
+}
+.menu-hidden{
+  transform: translateX(-200%);  
+    opacity: 0; 
+}
+#menu>*>*{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+  padding: 20px;
+  cursor: pointer;
+}
 
 
 
 
 @media (min-width: 769px){
+  .menu-list {  
+    list-style: none; /* Remove bullet points */  
+    display: flex;  
+    flex-wrap: wrap;  /* Align items in a row */  
+    justify-content:center; /* Space between menu items */  
+    padding: 0;      /* Remove default padding */  
+    margin: 0;       /* Remove default margin */  
+  }  
+  
+  .menu-list li {  
+    border-left: 1px solid rgba(87, 87, 87, 0.623);
+    border-right: 1px solid rgba(87, 87, 87, 0.623);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(212, 212, 212);   /* Set text color to white */  
+    margin: 0 15px; /* Spacing between items */  
+    font-size: 14px; /* Adjust font size */  
+    cursor: pointer; /* Change cursor */  
+    position: relative;
+    margin-right: 10px;
+    margin-top: 20px; /* For dropdown indicator */  
+  } 
   .prod-top{
      padding: '20px'; 
      display:'flex';
