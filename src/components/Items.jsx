@@ -281,4 +281,93 @@ const combinedArray = itemsArray.map(item => {
   return { ...item, ...productDetails };
 });
 
-export default combinedArray
+const snusarr = [{
+  id:'product-20',
+ image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.01.40-e1721387952269-510x528.jpeg',
+ title:'Unibar Blueberry Ice Nicotine Pouches – 10mg/17mg – 20 Pouches Per Pack',
+ price:'1150',
+ price2:'1250',
+ colors:['6mg'],
+ desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+
+Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`
+},
+{
+  id:'product-21',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.01.20-e1721388108263-510x515.jpeg',
+  title:'Unibar Cool Storm Nicotine Pouches – 11mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'1250',
+  desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+ 
+ Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`
+ },
+{
+  id:'product-23',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.02.41-e1721387801832-510x530.jpeg',
+  title:'Unibar Freeze Nicotine Pouches – 11mg/17mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'1250',
+  colors:['11mg','17mg'],
+  desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+ 
+ Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`
+ 
+},
+{
+  id:'product-24',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.02.33-e1721388418314-510x495.jpeg',
+  title:'Unibar Ice Cool Nicotine Pouches – 10mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'1250',
+  desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+ 
+ Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`
+ 
+},
+{
+  id:'product-25',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.01.35-e1721387477417-510x521.jpeg',
+  title:'Unibar Polar Mint Nicotine Pouches – 6mg/17mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'1250',
+  desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+   
+ Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`,
+ colors:['11mg','17mg'],
+},
+{
+  id:'product-26',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-19-at-14.01.05-e1721388308754-510x540.jpeg',
+  title:'Unibar Royal Purple Nicotine Pouches – 10mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'1250',
+  desc:`Experience the convenience and satisfaction of Unibar Nicotine Pouches, the perfect alternative for those seeking a smoke-free and discreet nicotine solution. Unibar Nicotine Pouches are expertly crafted to deliver a smooth and satisfying nicotine experience, ideal for on-the-go use without the need for vaping or smoking. Each Unibar Nicotine Pouch is infused with high-quality nicotine, ensuring a consistent and enjoyable experience. These pouches are available in a variety of flavors, from refreshing mint to juicy fruit blends, catering to diverse taste preferences. With a user-friendly design, simply place the pouch under your lip for a long-lasting release of flavor and nicotine, providing a discreet and convenient way to satisfy your cravings.
+ 
+ Unibar Nicotine Pouches are ideal for both new and experienced users looking for an effective nicotine delivery method without the hassle of traditional tobacco products. Their sleek, portable packaging makes them easy to carry and use anytime, anywhere. Elevate your nicotine experience with Unibar Nicotine Pouches. Enjoy the perfect combination of convenience, flavor, and satisfaction, and discover why Unibar is a top choice among nicotine pouch enthusiasts.`
+ 
+},{
+  id:'product-27',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/07/white-fox-peppered-mint-nicotine-pouch-15mg-510x510.jpg',
+  title:'White Fox Pepper Mint Slim Nicotine Snus Pouch Made in Sweden – 12mg – 20 Pouches Per Pack',
+  price:'1150',
+  price2:'2000',
+  desc:`White Fox Peeper Mint Slim All White is an all white snus with high nicotine content of 12mg/g with extra fresh minty flavor.
+The pouches are delivered in slim format and the portion “fleece bags” enables a better release of nicotine and taste, compared to the traditional portion material.
+
+CONTENT AND INFORMATION
+Nicotine mg/pouch: 12mg
+Format: Slim
+Manufacturer: GN Tobacco
+
+Declaration of content
+Filler (E460), xanthan gum (E415), nicotine, acidity regulator (E500), natural flavors, humectant (E1520).`
+ 
+}
+]
+
+
+
+const concated = combinedArray.concat(snusarr)
+const combinedArray_final = {combinedArray,snusarr,concated}
+export default combinedArray_final

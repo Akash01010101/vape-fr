@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import combinedArray from '../components/Items'
+import combinedArray_final from '../components/Items'
 import Footer from '../components/Footer'
 import { useNavigate } from 'react-router-dom';
 export default function StarterKit() {
@@ -13,7 +13,7 @@ export default function StarterKit() {
     <div className='starter'>
     <Navbar/>
     <div  style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent:'center'}}>
-      {combinedArray.map((item) => (
+      {combinedArray_final.combinedArray.map((item) => (
         <div onClick={()=>{goToProductDetails(item.id)}} className='prod' key={item.id} style={{ border: 'none', padding: '10px', width: '200px' }}>
           <img id={item.id}
             src={item.image}

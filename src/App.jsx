@@ -10,6 +10,7 @@ import Juul from './pages/Juul'
 import Disposable from './pages/Disposable'
 import Iqos from './pages/Iqos'
 import Snus from './pages/Snus'
+import CartPage from './pages/CartPage';
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
     <Route path="/Iqos" element={<Iqos />} />
     <Route path="/Snus" element={<Snus />} />
     <Route path="/Product/:id" element={<Productpage />} />
+    <Route path="/Cart" element={<CartPage />} />
     </Routes>
    </Router>
    </>

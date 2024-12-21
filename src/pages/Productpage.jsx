@@ -1,18 +1,17 @@
 import { useParams } from 'react-router-dom';  
 import { useState } from 'react';  
-import combinedArray from '../components/Items';  
+import combinedArray_final from '../components/Items';  
 import Navbar from '../components/Navbar';  
 import Footer from '../components/Footer';  
-import React from 'react';
+import React from 'react';  
 
 function Productpage() {  
-  
   const { id } = useParams(); // To access the product ID from the URL parameter  
   const [selectedColor, setSelectedColor] = useState(null); // State to manage selected color  
   const [quantity, setQuantity] = useState(1); // State to manage quantity  
 
   // Find the product from combinedArray based on the id  
-  const product = combinedArray.find(item => item.id === id);  
+  const product = combinedArray_final.concated.find(item => item.id === id);  
 
   // If the product is not found, display a message  
   if (!product) {  
@@ -31,12 +30,35 @@ function Productpage() {
 
   // Function to handle adding the product to the cart  
   const handleAddToCart = () => {  
-    if (!selectedColor) {  
-      alert('Please select a color before adding to the cart.');  
-      return;  
+    // Check if product has colors and if a color is selected  
+    if (product.colors && product.colors.length > 0 && !selectedColor) {  
+        alert('Please select a color before adding to the cart.');  
+        return;  
     }  
-    alert(`Added to cart: ${product.title}, Color: ${selectedColor}, Quantity: ${quantity}`);  
-  };  
+  
+    // Get stored cart items from localStorage or create an empty array if none exist  
+    const existingCart = JSON.parse(localStorage.getItem('cartItems')) || [];  
+  
+    // Create the cart item object  
+    const cartItem = {  
+        id: product.id,  
+        color: selectedColor,  
+        quantity: quantity // Include quantity if needed  
+    };  
+  
+    // Check if the item is already in the cart  
+    const itemIndex = existingCart.findIndex(item => item.id === product.id && item.color === selectedColor);  
+    if (itemIndex === -1) {  
+        // If not, add the new item to the cart  
+        existingCart.push(cartItem);  
+        localStorage.setItem('cartItems', JSON.stringify(existingCart));  
+    } else {  
+        // If it is, update the quantity (if you want to allow this)  
+        existingCart[itemIndex].quantity += quantity;  
+        localStorage.setItem('cartItems', JSON.stringify(existingCart));  
+    }  
+    alert('Added to Cart')
+  }; 
 
   return (  
     <div>  
@@ -112,16 +134,15 @@ function Productpage() {
       <div className='desc-prod'>  
         <h1 style={{ fontSize: '20px' }}>Description:</h1>  
         {product.desc ? (  
-    <p>  
-      {product.desc.split('\n').map((line, index) => (  
-        <React.Fragment key={index}>  
-          {line}  
-          <br />  
-        </React.Fragment>  
-      ))}  
-    </p>  
-  ) : (<></>)
-} 
+          <p>  
+            {product.desc.split('\n').map((line, index) => (  
+              <React.Fragment key={index}>  
+                {line}  
+                <br />  
+              </React.Fragment>  
+            ))}  
+          </p>  
+        ) : (<></>)}  
       </div>   
       <div style={{ marginTop: '20px' }}>  
         <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>  
