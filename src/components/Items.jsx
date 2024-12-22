@@ -366,8 +366,718 @@ Filler (E460), xanthan gum (E415), nicotine, acidity regulator (E500), natural f
 }
 ]
 
+const regEj = [{
+  id:'product-28',
+  title:'DINNER LADY FREEBASE E-JUICES – 5 BOTTLES COMBO OFFER – 60ML (0MG/3MG/6MG)',
+  price:'7500',
+  price2:'8000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/11/s-l500.png',
+  desc:'DINNER LADY FREEBASE E-JUICES – 5 BOTTLES COMBO OFFER – 60ML (0MG/3MG/6MG)',
+  colors : [  
+    "STRAWBERRY BIKINI ICE-3MG",  
+    "STRAWBERRY BIKINI ICE-6MG",  
+    "LYCHEE ICE-3MG",  
+    "LYCHEE ICE-6MG",  
+    "BLACKBERRY CRUMBLE-3MG",  
+    "BLACKBERRY CRUMBLE-6MG",  
+    "COOL TOBACCO -3MG",  
+    "SWEET FUSION ICE-3MG",  
+    "SWEET FUSION ICE-6MG",  
+    "STRAWBERRY MACAROON-3MG",  
+    "STRAWBERRY MACAROON-6MG",  
+    "WATERMELON SLICES ICE-6MG",  
+    "WATERMELON SLICES ICE-3MG",  
+    "SWEET TOBACCO-3MG",  
+    "SWEET TOBACCO-6MG",  
+    "SMOOTH TOBACCO-3MG",  
+    "SMOOTH TOBACCO-6MG",  
+    "CAFE TOBACCO-3MG",  
+    "GRAPE STAR ICE-3MG",  
+    "GRAPE STAR ICE-6MG",  
+    "BLUE MENTHOL ICE-3MG",  
+    "PURPLE RAIN-6MG",  
+    "BERRY BLAST-6MG",  
+    "COLA SHADES-3MG",  
+    "COLA SHADES-6MG",  
+    "BLACK ORANGE CRUSH-3MG",  
+    "BLACK ORANGE CRUSH-6MG",  
+    "BUBBLE TROUBLE ICE-6MG",  
+    "PEACH BUBBLE ICE-3MG",  
+    "BUBBLE TROUBLE-3MG",  
+    "MANGO ICE-3MG",  
+    "LEMON TART"  
+]
+},
+{
+  id:'product-29',
+  title:'CORE BY DINNER LADY – GRAPE VINE – 120ML',
+  price:'1999',
+  price2:'2199',
+  colors:['3mg','6mg'],
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/Grape-Vine-Core-by-Dinner-Lady-120ml--510x510.jpg',
+  desc:`Grape Vine by Core Dinner lady Marvin called this out in 1968. ‘’I heard it through the grape-vine’’. Purple and Red grapes, sweet, slightly sour, and punchy.
 
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Grape`
+},
+{
+  id:'product-30',
+  title:'CORE BY DINNER LADY – PINK LEMONADE – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/CORE-BY-DINNER-LADY-PINK-LEMONADE-120ML_1024x1024@2x-510x510.webp',
+  desc:`Strawberry Apple by Core Dinner lady is a succulent green and red apples, blended with rich, full bodied candy Strawberries.
 
-const concated = combinedArray.concat(snusarr)
-const combinedArray_final = {combinedArray,snusarr,concated}
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Strawberry, Apple`
+},{
+  id:'product-31',
+  title:'CORE BY DINNER LADY – STRAWBERRY APPLE – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/Core_Strawberry_Apple_120ml_1024x1024@2x-510x510.png',
+  desc:`Strawberry Apple by Core Dinner lady is a succulent green and red apples, blended with rich, full bodied candy Strawberries.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Strawberry, Apple`
+},{
+  id:'product-32',
+  title:'CORE BY DINNER LADY – HONEYDEW MELONADE – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/05/honeydew-melonade-by-core-vapr_800x_0fad8b6c-51e4-49cc-bfdd-9f9ab42e6620_800x-510x510.webp',
+  desc:`CORE BY DINNER LADY – HONEYDEW MELONADE – 120ML
+
+Honeydew Melonade by Core Dinner lady is a subtle, sweet & refreshingly juicy honey melon vape, layered within our secret homemade lemonade on crushed ice.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Honeydew, Melon, Ice`
+},
+{
+  id:'product-33',
+  title:'CORE BY DINNER LADY – TROPIC MANGO CHILL – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/CORE-BY-DINNER-LADY-TROPIC-MANGO-CHILL-120ML_700x-510x510.webp',
+  desc:`Tropic Mango Chill by Core Dinner lady is a deliciously chilled tropical fusion, Sweet and juicy Mango’s fused with a fresh and cooling hit.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Mango, Menthol`
+},{
+  id:'product-34',
+  title:'CORE BY DINNER LADY – TROPIC THUNDER – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/05/CORE-BY-DINNER-LADY-TROPIC-THUNDER-120ML_1024x1024@2x-510x510.webp',
+  desc:`Tropic Thunder by Core Dinner lady is an electric fusion of worldly tropical fruits! Top notes of rich Pineapple, Mango & Guava, to mid notes of crisp Apple, Citric fruits, and sweet passion fruits!
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Pineapple, Mango, Guava`
+},{
+  id:'product-35',
+  title:'CORE BY DINNER LADY – VANILLA CUSTARD – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/05/CORE-BY-DINNER-LADY-VANILLA-CUSTARD-120ML_1024x1024@2x-510x510.webp',
+  desc:`Vanilla Custard by Core Dinner lady is a sweet, velvety, rich, and creamy custard blend.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Vanilla, Custard, Cream`
+},{
+  id:'product-36',
+  title:'CORE BY DINNER LADY – VANILLA TOBACCO – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/05/CORE-BY-DINNER-LADY-VANILLA-TOBACCO-120ML_1024x1024@2x-510x510.webp',
+  desc:`CORE BY DINNER LADY – VANILLA TOBACCO – 120ML
+
+Vanilla Tobacco by Core Dinner lady is a lather your taste buds with this creamy vanilla and tobacco blend. this flavour is rich, lightly sweetened and has subtle fresh tobacco tones.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Vanilla, Tobacco`
+},{
+  id:'product-37',
+  title:'CORE BY DINNER LADY – WATERMELON CHILL – 120ML',
+  price:'1999',
+  colors:['3mg','6mg'],
+  price2:'2199',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/CORE-BY-DINNER-LADY-WATERMELON-CHILL-120ML_1024x1024@2x-510x510.webp',
+  desc:`Watermelon Chill by Core Dinner lady is a Iconic fusion of sweet, Watermelon, Melon and Cantaloupe bound together on crushed ice.
+
+Manufacturer: Dinner Lady
+Available Strengths: 3mg & 6mg
+PG/VG: 30/70
+Size: 120ml
+Primary Flavors: Watermelon, Melon, Cantaloupe, Menthol`
+},{
+  id:'product-38',
+  title:'DINNER LADY – Blackberry Crumble – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/DinnerLady-Desserts-Blackberry-Crumble-3070-Shortfill-_SNV_-UK_2000x-510x510.jpg.webp',
+  desc:`Reminiscent of a blackberry pie with a short crust pastry, this Dinner Lady Blackberry Crumble combines 70% VG and 30% PG to create impressive, dense clouds with a rich flavor. Can be vaped as a 0mg liquid.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-39',
+  title:'DINNER LADY – Flip Flop Lychee Ice – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/01/summer-holidays-flip-flop-lychee_1024x1024@2x.jpg',
+  desc:`Flip Flop Lychee e-liquid by Summer Holidays features a combination of sweet and tart notes throughout. A delicate lychee flavor gets things started, countered on exhale by a combination of citrus and ice for a sharp endnote.
+
+70% VG / 30% PG
+Designed For Sub Ohm Vaping
+Made In UK
+Childproof Cap`
+},{
+  id:'product-40',
+  title:'DINNER LADY – Smooth Tobacco – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/11/Smooth-Tobacco-Dinner-Lady-60mL_1024x1024@2x-510x510.jpg',
+  desc:`Smooth Tobacco by Dinner Lady vape juice combines sweet and woody flavors within a formulation containing 70% VG and 30% PG to create impressive, dense clouds with a rich flavor.
+
+Blend : 70/320
+Content : 60ml
+Strength : 3mg | 6mg`
+},{
+  id:'product-41',
+  title:'DINNER LADY – Berry Blast – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/08/pret-a-booster-berry-blast1_1024x1024@2x.jpg',
+  desc:`Try out Berry Blast by Vape Dinner Lady, capturing a sweet blend of tangy raspberries accented with a splash of cherry juice for a decadent vape juice.
+
+Vape Dinner Lady E-Liquid – Berry Blast Features:
+60mL Unicorn Bottle
+Child Resistant Cap
+30% PG
+70% VG
+Made in USA`
+},{
+  id:'product-42',
+  title:'DINNER LADY – PURPLE RAIN (raspberry, blueberry and lemon) – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/11/DinnerLady-Fruits-Purple-Rain-3070-Shortfill-_SNV_-UK_2000x-510x510.jpg',
+  desc:`Purple Rain by Vape Dinner Lady E-Liquid captures sweet and sour flavors of raspberries, blueberries, and lemon, to create a trifecta of mouth puckering fruity vape juice that will keep the senses guessing.
+
+Vape Dinner Lady E-Liquid – Purple Rain Features:
+
+60mL Unicorn Bottle
+Child Resistant Cap
+50% PG
+70% VG
+Made in USA
+Available nicotine: 3mg, 6mg`
+},{
+  id:'product-43',
+  title:'DINNER LADY – Strawberry Bikini Ice – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/11/Strawberry-Bikini-Shortfill-E-Liquid-by-Dinner-Lady-510x510.jpg',
+  desc:`Dinner Lady Strawberry Ice 50:50 is a soda-inspired sensation that combines the tang of cloudy lemonade with vibrant strawberry for a sharp, fruity vape. If you’re looking for a sweet and refreshing e-liquid for summer, Dinner Lady Strawberry Ice could be the one for you.
+
+This e-liquid is part of Dinner Lady’s 50/50 range, and is perfect for use with your vape pen or a similar vape kit. These Dinner Lady e-liquids have a 30% PG, 70% VG formula and are available in nicotine strengths of 6mg.`
+},{
+  id:'product-44',
+  title:'DINNER LADY – Blue Menthol Ice – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/e-liquid-dinner-lady-blue-menthol-ice-13505930887257-510x510.jpg.webp',
+  desc:`About Dinner Lady Blue Menthol E-Liquid:
+A clash of cool, sweet and tangy flavours that are guaranteed to liven up a dreary day. Dinner Lady Blue Menthol fuses a chilled base of icy menthol and a heap of mixed berries, igniting prominent notes of blueberry, raspberry and blackcurrant for your enjoyment.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-45',
+  title:'DINNER LADY – BUBBLE TROUBLE ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/07/troubble-510x510.jpg.webp',
+  desc:`Tuck Shop – Bubble Trouble ICE by Vape Dinner Lady E-Liquid is a vapable reiteration of bubble gum and menthol, capturing the sweet and upliftingly chill scent, translating into a delicious flavor that will have 4/5 vapers agree that this is it.
+
+Dinner Lady E-Liquid – Tuck Shop – Bubble Trouble ICE Features:
+
+60mL Unicorn Bottle
+Child Resistant Cap
+30% PG.
+70% VG
+Made in USA
+Available nicotine: 0mg, 3mg, 6mg
+CALIFORNIA PROPOSITION 65 – Warning: This product contains nicotine, a chemical known to the state of California to cause birth defects or other reproductive harm.`
+},{
+  id:'product-46',
+  title:'DINNER LADY – BUBBLE TROUBLE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/07/troubble-510x510.jpg.webp',
+  desc:`Bubble Trouble is inspired by the iconic tuck shop favorite; bubble-gum. Fruity notes of classic bubblegum are apparent throughout, to create an authentic-tasting flavor.
+
+Featuring a 70% VG 30% PG ratio.
+
+70% VG / 50% PG
+Designed For Sub Ohm Vaping
+Made In The UK
+Childproof Cap
+Tamper Evident Seal`
+},{
+  id:'product-47',
+  title:'DINNER LADY – CAFE TOBACCO – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/cafe-tobacco-50ml-eliquid-shortfills-by-dinner-lady-tobacco-range-510x510.jpg.webp',
+  desc:`Combining the familiar hints of tobacco with a light hint of coffee, Café Tobacco provides a familiarity for smokers transitioning from smoking to vaping. Dinner Lady e-liquids contains even measures of VG and PG (70:30) for the perfect balance of flavor and vapor. Available in nicotine strengths of 3mg, 6mg
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-48',
+  title:'DINNER LADY – COOL TOBACCO – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/ROW_60ml_0mg_bottle_Cool_Tobacco_copy_480x480_ccf6c389-a01a-4ed2-b15e-5daf45544f32_2000x.jpg.webp',
+  desc:`This cool minty tobacco hit will almost take your  breath away
+
+Now available in store from our Melbourne Vape Shops located in Bundoora, Cheltenham, Dandenong, Nunawading and Pakenham or Order online for prompt delivery Australia Wide!
+
+Primary Flavors: Mint, Tobacco
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-49',
+  title:'DINNER LADY – Lemon Tart – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/DinnerLady-Desserts-LemonTart-3070-Shortfill_SNV_-UKNEWcopy_300x300-280x280.jpg.webp',
+  desc:`Dinner Lady’s award-winning Lemon Tart flavor, combining 70% VG and 30% PG to create impressive, dense clouds with a rich flavor. Can be vaped as a 0mg liquid.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-50',
+  title:'DINNER LADY – MANGO ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/SunTanMango-Dinner-Lady.png',
+  desc:`Mango Ice e-liquid by Dinner Lady is a fruit blend with rich notes. A tropical mango flavour makes up the base with sweet, juicy notes and a tart aftertaste. On exhale, a fusion of ice and honey creates a cool and floral finish.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-1',
+  title:'DINNER LADY – GRAPE STAR ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/01/Moments_60ml-03_345x@2x-510x510.webp',
+  desc:`Dinner Lady’s Grape Star is part of our new Moments range. The profile combines fruity red and black grapes, with an added kick of aniseed koolada which delivers an, consistent, and completely unique taste.
+
+Dinner Lady Shortfills combine 70% VG and 30% PG to create impressive, dense clouds with a rich flavour. Can be vaped as a 0mg liquid, alternatively add a nicotine or CBD shot to personalise your experience.
+
+Dinner Lady E-Liquids – Tuck Shop – Sweet Fusion Features:
+
+60mL Glass Dropper Bottle
+30% PG
+70% VG
+Made in UK
+Available in 3mg, 6mg
+Manufactured by Dinner Lady Fam (UK)`
+},{
+  id:'product-52',
+  title:'DINNER LADY – SWEET FUSION ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/01/DinnerLady-Ice-Sweet-Fusion-3070-Shortfill-_SNV_-UK_2000x-510x510.webp',
+  desc:`Mixing sweet fruits and bitter citrus berries with icy cool koolada for a fresh intake, Dinner Lady’s Sweet Fusion Ice contains 70% VG and 30% PG to create impressive, dense clouds with a rich flavor. Can be vaped as a 0mg liquid, alternatively add a nicotine or CBD shot to personalise your experience.
+
+Dinner Lady E-Liquids – Tuck Shop – Sweet Fusion Features:
+
+60ml
+50% PG
+70% VG
+Made in UK
+Available in 3mg, 6mg
+Manufactured by Dinner Lady Fam (UK)`
+},{
+  id:'product-53',
+  title:'DINNER LADY – Strawberry Macaroon – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/dinner-lady-strawberry-macaroon-50ml-510x510.jpg.webp',
+  desc:`Mixing an almond and coconut macaroon base with sweet strawberry, Dinner Lady Shortfills combine 70% VG and 30% PG to create impressive, dense clouds with a rich flavour. Can be vaped as a 0mg liquid.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-54',
+  title:'DINNER LADY – SWEET TOBACCO – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/dinner-lady-tobacco-sweet-tobacco-us-import-dinner-lady-423336_2000x-510x510.jpg.webp',
+  desc:`Vanilla creme with dark caramel subtly mixed with earthy tobacco.
+
+PG/VG Ratio:  70 VG / 50 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-55',
+  title:'DINNER LADY – BLACK ORANGE CRUSH – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/08/images-510x510.jpeg',
+  desc:`Dinner Lady Black Orange Crush Liquid 60 ml for Electric Cigarettes
+
+The Dinner Lady Black Orange Crush Liquid tastes deliciously blended with black currants with orange, ice and a secret ingredient.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-56',
+  title:'DINNER LADY – ICE MOMENTS PEACH BUBBLE ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-05-at-7.10.25-PM-510x510.jpeg',
+  desc:`Bursting at the seams with pure flavor, Dinner Lady Ice moments Peach Bubble 60ml e-liquid presents a fruit blend with a candied twist. Notes of juicy ripe peaches are complemented by hints of sugary bubblegum for a sweet flavor profile guaranteed to delight.
+
+PG/VG Ratio:  70 VG / 30 PG
+
+Bottle Sizes:  60ml
+
+Bottle Type:  60ml Chubby Gorilla`
+},{
+  id:'product-57',
+  title:'DINNER LADY – Watermelon Slices Ice – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/watermelon-slices-ice-by-dinner-lady-tuck-shop-e-liquid-60ml-14395698249794-510x510.webp',
+  desc:`Tuck Shop – Watermelon Slices ICE by Vape Dinner Lady E-Liquid is a tasty combination of a sun-kissed watermelon picked at the peak of perfection, mixing the extracted nectar to create a deliciously fruity eJuice touched with a hint of menthol.
+
+Dinner Lady E-Liquid – Tuck Shop – Watermelon Slices ICE Features:
+
+60mL Unicorn Bottle
+Child Resistant Cap
+30% PG
+70% VG
+Made in USA
+Available nicotine: 0mg, 3mg, 6mg`
+},{
+  id:'product-58',
+  title:'DINNER LADY -COLA SHADES ICE – 60ml',
+  price:'1599',
+  colors:['3mg','6mg'],
+  price2:'2000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/07/DinnerLady-Ice-Cola-Shades-3070-Shortfill-_SNV_-UK_300x300-280x280.jpg',
+  desc:`Cola Shades by Vape Dinner Lady is part of the exhilarating Summer Holidays Collection, delivering a thirst-quenching blend of authentic cola soda with subtle notes of lemon served on rocks.
+
+Vape Dinner Lady – Summer Holidays – Cola Shades Features:
+60ml
+Dropper in Bottle
+70% VG
+50% PG
+Made in USA`
+},{
+  id:'product-59',
+  title:'NASTY FREEBASE DEVIL TEETH MADE FROM NASTY 60ml',
+  price:'1600',
+  colors:['3mg','6mg'],
+  price2:'3000',
+  image:'https://yoyovapes.com/wp-content/uploads/2021/08/devil_teeth_1024x1024-510x510.jpg.webp',
+  desc:`Devil Teeth By Nasty Juice 60ml Review
+Devil Teeth by Nasty Juice 60ml vape juice is a yummy and interesting mix of honeydew melon and a hint of menthol.
+
+If you are looking for a serious thirst-quencher, Devil Teeth vape juice from Nasty Juice is the way to go. This refreshing honeydew flavor has that zesty tang and exhilarating sweetness that makes the taste buds tingle. Each puff is like sipping on cold honeydew juice on a hot summer day.
+
+Devil Teeth vape juice is made with outstanding ingredients, ensuring a deeply authentic honeydew melon taste. If you like your ejuice flavors to taste like freshly-cut fruit, Nasty Juice has got your back. Every inhale and exhale of Devil Teeth is a truly rejuvenating experience.
+
+As you inhale Devil Teeth vape juice, a burst of tangy honeydew melon flavor teases the palate with its titillating taste. As this flavor sits on the tongue, its sweetness begins to intensify, satisfying your sweet tooth. When you exhale, a surprisingly creamy taste from the natural melon flavor as well as that hint of menthol will be like ecstasy for your taste buds.
+
+Devil Teeth vape juice  by Nasty Juice comes in a 60ml dropper bottle for easy pouring and is available in three nicotine strengths . Its 70 percent vegetable glycerin (VG) and 30 percent propylene glycol (PG) base is perfect for vape enthusiasts who crave a good throat hit as well as big, thick, and puffy clouds of vapor.
+
+Devil Teeth vape juice is the ultimate treat for honeydew melon fanatics. When it comes to delivering those complex layers of fresh melon flavor, Nasty Juice does it best.
+
+Package Contents Include:
+
+1 x 60ml dropper bottle of Devil Teeth by Nasty Juice
+VG/PG: 70/30
+Flavor Profile: Honeydew, Menthol`
+}
+]
+const iqos = [{
+  id:'product-60',
+  title:'IQOS 3 Duo Starter Kit',
+  colors:['Blue','Grey Black'],
+  price:'12000',
+  price2:'12500',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/IQOS-3-DUO13-400x400-1.jpeg',
+  desc:`IQOS impressed us all with the release if the IQOS 2.4 and the 2.4+, revolutionising the market with a completely unique product. Now they’ve improved on what was already a flawless product to bring your the IQOS 3. Not only improving the design with this sleek and stunning new kit. But offering faster charging times, longer battery lifespan, a sturdier and more robust casing and even offering a huge array of coloured accessories to really make your IQOS kit your own.
+
+IQOS uses revolutionary technology that heats tobacco without burning it, giving you the true taste of tobacco with no smoke, no ash and less smell. This is ideal for health-conscious smokers who don’t wish to vape who would still like the closest alternative experience to smoking on the market.
+
+New features on the IQOS 3:
+
+New vibrating IQOS Holder
+Beautifully simple and sophisticated new design
+Array of colour option accessories
+Faster charging between Heets
+Longer lasting battery life
+This new heat not burn technology heats the mini tobacco sticks (called Heets) but doesn’t actually burn them – so in comparison to a conventional cigarette which burns at 800 degrees, the IQOS heats the tobacco to 350 degrees  and instead produces a smoke vapour rather than traditional smoke.
+
+This results in an average reduction of 90%-95% in the levels of toxicity and harmful substances found in tobacco IQOS vapour compared to smoke from a cigarette.
+
+On top of that, the IQOS has no ash, no smoke, and of course significantly less smell. And because its not LIT tobacco, it also avoids the smoking ban and can be used indoors (where permitted).
+
+Therefore moving to IQOS is a much better choice than smoking`
+},
+{
+  id:'product-61',
+  title:'IQOS HEETS Amber Selection',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/heets-amber_1024x1024@2x-510x509.webp',
+  desc:`This carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.
+
+Amber Selection HEETS – A rich tobacco blend.
+
+IQOS have created an alternative for adult smokers who would otherwise continue to smoke cigarettes and want to enjoy real tobacco taste without the smoke or ash of cigarettes. This product is not intended for non smokers or ex smokers and is compatible only with the IQOS device. Do not smoke or use with other devices.
+
+Each HEETS stick contains 0.5mg of nicotine and other flavor options are available.`
+},{
+  id:'product-62',
+  title:'IQOS HEETS Bronze Selection',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/5917537425dde9838583580.34102933-510x510.jpg',
+  desc:`HEETS made for IQOS. Real Tobacco Reimagined.
+HEETS are a completely new way to enjoy tobacco. Made from the finest leaf and produced into small ‘sticks’, they open up a whole new world of taste and flavour.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-63',
+  title:'IQOS HEETS Gold Selection',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/08/2993983505d715172efd7a3.89056249-510x510.jpg',
+  desc:`Heets Gold Selection has a velvety flavour of special roasted tobacco with some woody notes and a light refreshing shade.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-64',
+  title:'IQOS HEETS Green Zing',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/BEST-IQOS-HEETS-GREEN-ZING-INDIA_520x-510x490.webp',
+  desc:`Spicy and fresh tobacco from Green Label HEETS delights with a feeling of cool menthol taste, filled with citrus and spicy herbal notes. HEETS Green Zing Label flavor has a peppermint flavor of roasted tobacco blend with citrus and spicy herbs.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-65',
+  title:'IQOS HEETS Ruby Fuse',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/07/heets-ruby-fuse_1024x1024@2x-510x510.webp',
+  desc:`Ruby Fuse Heets is a gentle and fragrant tobacco blend complemented by impressive berry notes with a light floral shade. For use with IQOS devices.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-66',
+  title:'IQOS HEETS Slate Selection ( ex Yellow Selection )',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/07/Heets-Parliament-Slate-Selection_1024x1024@2x.webp',
+  desc:`Heets Slate Selection (ex Yellow Selection) flavor is soft and fragrant mellow tobacco blend with some spicy notes. For use with IQOS devices.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-67',
+  title:'IQOS HEETS Purple Wave',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/heets-purple_1024x1024@2x.webp',
+  desc:`Purple Wave Selection Label IQOS HEETS Purple Wave (previously known as Purple Label) flavor has strong tobacco flavour with a taste almost heavy as cigars. For use only with IQOS devices. Buy IQOS Purple Heets India at your doorstep.
+This carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.`
+},{
+  id:'product-68',
+  title:'IQOS HEETS Silver Selection',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/Heets-Silver-Selection-India_1024x1024@2x-510x510.webp',
+  desc:`Silver Label flavor has smooth taste of traditional tobacco, as light as a breeze. Philip Morris international created the IQOS Heated Tobacco technology to give adult smokers a better alternative to smoking.
+
+Carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’`
+},{
+  id:'product-69',
+  title:'IQOS HEETS Summer Breeze',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2023/03/heets-summer-breeze_1024x1024@2x-510x510.webp',
+  desc:`This carton contains 10 packs of HEETS tobacco sticks. Each pack contains 20 sticks, for a total of 200 sticks.
+
+IQOS HEETS are real tobacco sticks made for IQOS ‘Heat Not Burn’ products.
+
+Summer Breeze HEETS – New menthol cooling sensation enriched with bold fruity aroma notes and floral nuances is HEETS Summer Breeze in a peach-colored pack.
+
+IQOS have created an alternative for adult smokers who would otherwise continue to smoke cigarettes and want to enjoy real tobacco taste without the smoke or ash of cigarettes. This product is not intended for non smokers or ex smokers and is compatible only with the IQOS device. Do not smoke or use with other devices.
+
+Each HEETS stick contains 0.5mg of nicotine and other flavor options are available.`
+},{
+  id:'product-70',
+  title:'IQOS HEETS CREATIONS – Arbour',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/heets-creations-arbor-510x510.webp',
+  desc:`Heets Creations Arbor has a rich tobacco flavor with malt notes. Pressing a button reveals a fresh taste of juicy fruits. For use with IQOS 3 Duo & earlier devices.
+1 carton contains 10 packs x 20 sticks = 200 sticks.
+HEETS made for IQOS. Real Tobacco Reimagined.
+HEETS are a completely new way to enjoy tobacco. Made from the finest leaf and produced into small ‘sticks’, they open up a whole new world of taste and flavor.`
+},{
+  id:'product-71',
+  title:'IQOS HEETS CREATIONS – Twilight',
+  price:'700',
+  price2:'750',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/heets-creations-twilight-510x510.webp',
+  desc:`Heets Creations Arbor has a rich tobacco flavor with malt notes. Pressing a button reveals a fresh taste of juicy fruits. For use with IQOS 3 Duo & earlier devices.
+1 carton contains 10 packs x 20 sticks = 200 sticks.
+HEETS made for IQOS. Real Tobacco Reimagined.
+HEETS are a completely new way to enjoy tobacco. Made from the finest leaf and produced into small ‘sticks’, they open up a whole new world of taste and flavor.`
+},{
+  id:'product-72',
+  title:'IQOS TEREA – Amber',
+  price:'850',
+  price2:'950',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/terea-amber-10-packs-510x510.webp',
+  desc:`The new TEREA tobacco sticks by IQOS are specifically designed for the IQOS ILUMA range of devices. An evolutionary bladeless SMARTCORE INDUCTION SYSTEM consists of a stainless steel element embedded within the TEREA stick which heats to 350C via electromagnetic induction and emits a genuine tobacco flavoured vapour. The TEREA sticks are sealed at both ends which eradicates any loose tobacco or residue, ensuring a mess free vaping experience. Amber TEREA sticks for the IQOS ILUMA presents a balanced blend of roasted tobacco blend with woody and nut tones.
+
+Note: All IQOS products including device and HEETS do not accumulate points towards our rewards programme. TEREA sticks are only compatible with the IQOS ILUMA & ILUMA one devices.`
+},{
+  id:'product-73',
+  title:'IQOS TEREA – Silver',
+  price:'850',
+  price2:'950',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/terea-silver-10-packs-510x510.webp',
+  desc:`Balanced blend of toasted tobacco, delicately refined with light aromatic notes of spicy herbs. For use with IQOS Iluma devices only.
+The innovative heating technology in new IQOS Iluma devices is the Smartcore Induction System that heats the tobacco from within the new Terea Smartcore stick. These newly designed sticks are to be used only with IQOS Iluma, which features an auto-start function that detects when the Terea stick is inserted and automatically turns on the device.
+These bladeless devices offer a cleaner way to heat tobacco from the core, without burning it, to provide a more consistent experience, no tobacco residue, and no need to clean the device.
+
+Additionally, they generate no combustion and no smoke, and PMI’s market research indicates that IQOS ILUMA provides a more pleasurable experience compared to previous IQOS generations.`
+},{
+  id:'product-74',
+  title:'IQOS TEREA – Sun Pearl',
+  price:'850',
+  price2:'950',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/terea-sun-pearl-10-packs-2-1-510x510.webp',
+  desc:`1 carton contains 10 packs x 20 sticks = 200 sticks
+
+The innovative heating technology in new IQOS Iluma devices is the Smartcore Induction System that heats the tobacco from within the new Terea Smartcore stick. These newly designed sticks are to be used only with IQOS Iluma, which features an auto-start function that detects when the Terea stick is inserted and automatically turns on the device.
+
+These bladeless devices offer a cleaner way to heat tobacco from the core, without burning it, to provide a more consistent experience, no tobacco residue, and no need to clean the device.
+Additionally, they generate no combustion and no smoke, and PMI’s market research indicates that IQOS ILUMA provides a more pleasurable experience compared to previous IQOS generations.`
+},{
+  id:'product-68',
+  title:'IQOS HEETS Silver Selection',
+  price:'850',
+  price2:'950',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/08/terea-yellow-10-packs-510x510.webp',
+  desc:`A smooth and finely balanced tobacco blend.
+
+Discover TEREA tobacco sticks, made exclusively for IQOS ILUMA heated tobacco device. Using the innovative SMARTCORE INDUCTION SYSTEM™, TEREA paired with IQOS ILUMA bring you next level heated tobacco experience with improved draw, taste consistency and less smell*, according to most consumers.
+
+Each TEREA packet consists of 20 specially crafted Tobacco sticks designed for use with IQOS ILUMA Devices and Kits.
+
+Make sure you only use TEREA sticks with your IQOS ILUMA. They are single use so ensure you do not reinsert a used one.
+
+Do not use IQOS ILUMA and TEREA sticks with previous IQOS generations, as this may cause damage to your device.`
+}]
+const concated = combinedArray.concat(snusarr,regEj,iqos)
+const combinedArray_final = {combinedArray,snusarr,concated,regEj,iqos}
 export default combinedArray_final

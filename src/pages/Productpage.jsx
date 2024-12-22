@@ -89,8 +89,8 @@ function Productpage() {
           </div>  
           {product.colors && (  
             <div style={{ marginBottom: '20px' }}>  
-              <p>Color:</p>  
-              <div style={{ display: 'flex', gap: '10px' }}>  
+              <p></p>  
+              <div style={{ display: 'flex', gap: '10px', flexWrap:'wrap'}}>  
                 {product.colors.map((color) => (  
                   <button  
                     key={color}  
