@@ -146,6 +146,13 @@ nav{
     padding: 0;      /* Remove default padding */  
     margin: 0;       /* Remove default margin */  
   }  
+  .starter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   
   .menu-list li {  
     border-left: 1px solid rgba(87, 87, 87, 0.623);

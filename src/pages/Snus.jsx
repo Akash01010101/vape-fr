@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import combinedArray_final from '../components/Items';
 
-export default function Snus() {
+export default function Regular() {
   const [visibleItems, setVisibleItems] = useState(10); // Initial number of items
   const [isLoading, setIsLoading] = useState(false);
   const observerRef = useRef(null);
@@ -47,14 +47,16 @@ export default function Snus() {
   }, []);
 
   return (
+    <div className='.st'>      <Navbar />
     <div className="starter">
-      <Navbar />
+
       <div
         style={{
           display: 'flex',
           gap: '10px',
           flexWrap: 'wrap',
           justifyContent: 'center',
+          maxWidth:'1000px',
         }}
       >
         {combinedArray_final.snusarr.slice(0, visibleItems).map((item) => (
@@ -85,7 +87,8 @@ export default function Snus() {
       {/* Invisible div to trigger observer */}
       <div ref={observerRef} style={{ height: '20px' }}></div>
 
-      <Footer />
     </div>
+    <Footer /></div>
+    
   );
 }

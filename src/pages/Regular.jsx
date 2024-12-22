@@ -47,14 +47,16 @@ export default function Regular() {
   }, []);
 
   return (
+    <div className='.st'>      <Navbar />
     <div className="starter">
-      <Navbar />
+
       <div
         style={{
           display: 'flex',
           gap: '10px',
           flexWrap: 'wrap',
           justifyContent: 'center',
+          maxWidth:'1000px',
         }}
       >
         {combinedArray_final.regEj.slice(0, visibleItems).map((item) => (
@@ -85,7 +87,8 @@ export default function Regular() {
       {/* Invisible div to trigger observer */}
       <div ref={observerRef} style={{ height: '20px' }}></div>
 
-      <Footer />
     </div>
+    <Footer /></div>
+    
   );
 }

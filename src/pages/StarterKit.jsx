@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Navbar from '../components/Navbar';
-import combinedArray_final from '../components/Items';
-import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import combinedArray_final from '../components/Items';
 
-export default function StarterKit() {
-  const [visibleItems, setVisibleItems] = useState(10); // Number of items to show initially
+export default function Regular() {
+  const [visibleItems, setVisibleItems] = useState(10); // Initial number of items
   const [isLoading, setIsLoading] = useState(false);
   const observerRef = useRef(null);
   const nav = useNavigate();
@@ -20,11 +20,11 @@ export default function StarterKit() {
       setTimeout(() => {
         setVisibleItems((prev) => prev + 10); // Load 10 more items
         setIsLoading(false);
-      }, 500); // Simulate loading delay
+      }, 500); // Simulated delay
     }
   };
 
-  // Intersection Observer to detect when to load more
+  // Intersection Observer to detect when to load more items
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -47,14 +47,16 @@ export default function StarterKit() {
   }, []);
 
   return (
+    <div className='.st'>      <Navbar />
     <div className="starter">
-      <Navbar />
+
       <div
         style={{
           display: 'flex',
           gap: '10px',
           flexWrap: 'wrap',
           justifyContent: 'center',
+          maxWidth:'1000px',
         }}
       >
         {combinedArray_final.combinedArray.slice(0, visibleItems).map((item) => (
@@ -85,7 +87,8 @@ export default function StarterKit() {
       {/* Invisible div to trigger observer */}
       <div ref={observerRef} style={{ height: '20px' }}></div>
 
-      <Footer />
     </div>
+    <Footer /></div>
+    
   );
 }
