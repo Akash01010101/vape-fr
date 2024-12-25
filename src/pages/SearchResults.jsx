@@ -23,7 +23,7 @@ const SearchResults = () => {
   };  
 
   const filterResults = (term) => {  
-    const results = combinedArray_final.combinedArray.filter(item =>  
+    const results = combinedArray_final.concated.filter(item =>  
       item.title.toLowerCase().includes(term.toLowerCase())  
     );  
     setFilteredResults(results);  

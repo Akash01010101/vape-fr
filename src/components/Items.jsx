@@ -276,10 +276,6 @@ When working with Li-ion (Lithium-ion), LiPo (Lithium-ion Polymer) and any recha
 
 ];
 
-const combinedArray = itemsArray.map(item => {
-  const productDetails = array2.find(details => details.id === item.id);
-  return { ...item, ...productDetails };
-});
 
 const snusarr = [{
   id:'product-20',
@@ -1522,6 +1518,11 @@ Easy to Replace
 Package Includes:
 5 x SMOK Novo 4 Replacement Coil`,
 }]
+const combinedArray = itemsArray.map(item => {
+  const productDetails = array2.find(details => details.id === item.id);
+  return { ...item, ...productDetails };
+});
+ 
 const concated = combinedArray.concat(snusarr,regEj,iqos,coils)
 const combinedArray_final = {combinedArray,snusarr,concated,regEj,iqos,coils}
 export default combinedArray_final
