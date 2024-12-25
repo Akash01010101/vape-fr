@@ -134,7 +134,7 @@ function Productpage() {
       <div className='desc-prod'>  
         <h1 style={{ fontSize: '20px' }}>Description:</h1>  
         {product.desc ? (  
-          <p>  
+          <p  style={{fontSize:'15px'}}>  
             {product.desc.split('\n').map((line, index) => (  
               <React.Fragment key={index}>  
                 {line}  

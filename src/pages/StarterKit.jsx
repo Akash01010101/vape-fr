@@ -66,7 +66,7 @@ export default function Regular() {
             }}
             className="prod"
             key={item.id}
-            style={{ border: 'none', padding: '10px', width: '200px' }}
+            style={{ border: 'none', padding: '5px', width: '170px' }}
           >
             <img
               id={item.id}
@@ -74,7 +74,7 @@ export default function Regular() {
               alt={item.title}
               style={{ width: '100%', height: 'auto', marginBottom: '10px' }}
             />
-            <h3 className="prod-title" style={{ fontSize: '1em', textAlign: 'center' }}>
+            <h3 className="prod-title" style={{ textAlign: 'center' }}>
               {item.title}
             </h3>
           </div>

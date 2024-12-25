@@ -1063,7 +1063,7 @@ The innovative heating technology in new IQOS Iluma devices is the Smartcore Ind
 These bladeless devices offer a cleaner way to heat tobacco from the core, without burning it, to provide a more consistent experience, no tobacco residue, and no need to clean the device.
 Additionally, they generate no combustion and no smoke, and PMI’s market research indicates that IQOS ILUMA provides a more pleasurable experience compared to previous IQOS generations.`
 },{
-  id:'product-68',
+  id:'product-75',
   title:'IQOS HEETS Silver Selection',
   price:'850',
   price2:'950',
@@ -1078,6 +1078,450 @@ Make sure you only use TEREA sticks with your IQOS ILUMA. They are single use so
 
 Do not use IQOS ILUMA and TEREA sticks with previous IQOS generations, as this may cause damage to your device.`
 }]
-const concated = combinedArray.concat(snusarr,regEj,iqos)
-const combinedArray_final = {combinedArray,snusarr,concated,regEj,iqos}
+const coils = [{
+    id:'product-76',
+  title:'Uwell Caliburn Explorer Empty Pod – Pack of 2 Pods',
+  image:'https://yoyovapes.com/wp-content/uploads/2024/04/FDA2-510x510.webp',
+  price:'1100',
+  price2:'1500',
+  image2:'',
+  desc:`Caliburn Explorer Empty Pod :
+Capacity: 4mL (2mL for each cartridge)
+Dual Side-Refill Design
+Dual Airflow System
+Super Wide ClearView (Juice Window)
+INCLUDES :
+2 x Uwell Caliburn Explorer Empty Replacement Pods`,
+},
+{
+  id:'product-77',
+title:'VAPORESSO LUXE X POD – Pack of 2 Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2023/11/group-vaporesso-luxe-x-replacement-pods.webp',
+price:'1600',
+price2:'1999',
+image1:'https://www.vaporesso.com/hubfs/imgs/2022/pro/pod/luxe-x-pod/pic_pod-1.png',
+desc:`The LUXE X pod can provide both MTL and DTL experience with 0.4Ω and 0.8Ω pods. The COREX heating technology, applied with Morph-MESH and Cumulus Cotton, ensures rapid and even heating and provide a surprisingly boosted flavor and bigger clouds from the luxe x pod.
+
+The SSS Leak-resistant Technology with built in coil can guarantee a more mess free experience.
+
+The unique Morph-Mesh structure of COREX ensures a more rapidly and evenly heating to improve the Vaporization Efficiency Ratio by 50%, providing bigger clouds and boosted flavor even with such a small pod.`,
+},{
+  id:'product-78',
+title:'VAPORESSO LUXE XR MTL Pod – Pack of 2 Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2023/11/LuxeXRPodReplacement-Vaporesso-MTL.webp',
+price:'1400',
+price2:'2000',
+image2:'',
+desc:`The LUXE XR pod is the replaceable coil version of LUXE X pod which can also provide MTL and DTL experience. The COREX heating technology, applied on the GTX coils, ensures rapid and even heating and provide a surprisingly boosted flavor and bigger clouds.
+
+It’s also compatible with the GTX coil platform and the LUXE X POD.
+
+The unique Morph-Mesh structure of COREX ensures a more rapidly and evenly heating to improve the Vaporization Efficiency Ratio by 50%, providing bigger clouds and boosted flavor even with such a small pod.
+
+The LUXE XR POD has two customized options for both MTL and DTL experience to fit with the GTX 0.4Ω MESH coil and GTX 0.8Ω MESH coil. It’s compatible with other GTX Coil platform and also compatible on the LUXE X.
+
+The LUXE XR POD has two customized options for both MTL and DTL experience to fit with the GTX 0.4Ω MESH coil and GTX 0.8Ω MESH coil. It’s compatible with other GTX Coil platform and also compatible on the LUXE X.SSS Leak-Resistant Technology to lock the liquid inside and maximally reduce the leakage.
+
+• 2 x VAPORESSO LUXE XR RDL/MTL POD(5ml)
+• 1 x User Manual`,
+},{
+  id:'product-79',
+title:'Vaporesso X Tank Pod – Pack of 2 Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2023/10/PhotoRoom_20230530_103029am.webp',
+price:'900',
+price2:'800',
+image2:'',
+desc:`Vaporesso X Tank pod is a new pod tank designed to rival the subohm tank.
+
+The integrated top airflow and top filling, together with SSS Leak-Resistant Technology, it gives a Quadra leak resistance, better than a tank.
+
+The Vaporesso X Tank Pod can also be fully compatible with the whole GTX coil platform.
+
+Combined the SSS Leak-Resistant Technology and Liquid Self-Circulation System, double leak resistance in the bottom.
+
+Compatible With Vaporesso Gen PT 60 and Gen PT 80S only`,
+},{
+  id:'product-80',
+title:'SMOK RPM 25W KIT REPLACEMENT PODS – PACK OF 3 PODS (Compatible with LP1 coil)',
+image:'https://yoyovapes.com/wp-content/uploads/2023/04/850-510x510.webp',
+price:'1699',
+price2:'1999',
+image2:'',
+desc:`Discover SMOK RPM 25 Pods (3-Pack), featuring a 2mL capacity, LP1 Coil Series Support, and delivers delicious flavor and vapor from your favorite eJuice.
+
+SMOK RPM 25 Replacement Pods Features:
+2mL Pod Capacity
+Bottom Fill System – Silicone Stoppered
+SMOK LP1 Coil Series
+0.9ohm LP1 Coils
+Press Fit Coil Installation
+Magnetic Pod Connection
+Comes in a pack of three (3)`,
+},{
+  id:'product-81',
+title:'UWELL CROWN X EMPTY POD CARTRIDGE 5.3ML – PACK OF 2 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2024/08/uwell-crown-x-pods-5.3ml-pack-of-2-72952-p-510x510.jpg',
+price:'700',
+price2:'750',
+image2:'',
+desc:`Don’t forget to buy replacement pods for your Uwell Crown X pod kit.  Featuring a 5.3mL capacity and convenient top-fill design.`,
+},
+{
+  id:'product-82',
+title:'Uwell Crown X Replacement Coils – 0.3ohm/0.6ohm – Pack of 4 Coils',
+image:'https://yoyovapes.com/wp-content/uploads/2024/08/Crown-X-Coil-1-510x510.webp',
+price:'2000',
+price2:'2500',
+image2:'',
+desc:`0.3ohm Coil: This lower resistance coil is typically suited for direct-to-lung (DTL) vaping, providing a looser draw and the ability to produce larger, denser clouds of vapor. It’s ideal for vapers who prioritize cloud production and a more intense flavor experience.
+0.6ohm Coil: The higher resistance coil is more conducive to mouth-to-lung (MTL) vaping, offering a tighter draw that mimics the sensation of smoking a traditional cigarette. It’s perfect for those who prefer a more discreet vapor production and a focused flavor profile.`,
+},
+{
+  id:'product-83',
+title:'Vaporesso GTi Coils – Pack of 5 Coils',
+image:'https://yoyovapes.com/wp-content/uploads/2023/05/group-vaporesso-gti-mesh-replacement-coils_1.webp',
+price:'1999',
+price2:'2199',
+colors:['0.4ohm','0.5ohm'],
+image2:'',
+desc:`Pack of 5 genuine replacement Vaporesso GTi mesh coils.
+
+Applicable to the following Vaporesso devices (this list may date as new products are released):
+
+Target 80 (iTank)
+Target 100 (iTank)
+Target 200 (iTank)
+Wattage range 75-90W (best 85W).
+
+Ensure you’re using the original tank that comes as part of the kit (iTank tank) to ensure you have the correct coils.
+
+Packaging comes with Vaporesso hologram and authenticity sticker.
+
+Coils in the Vaporesso GTi series:
+
+0.15Ω Ohm – mesh 75-90W (best 85W)
+0.2Ω Ohm – mesh 60-75W
+0.4Ω Ohm – mesh 50-60W
+0.5Ω Ohm – mesh 30-40W`,
+},
+{
+  id:'product-84',
+title:'Uwell Caliburn G3 Pod-PACK OF 2 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2024/03/images-3-510x510.jpeg',
+price:'1100',
+price2:'1400',
+image2:'',
+desc:`Keep your Uwell Caliburn G3 kit hitting high notes with these replacement pods. Designed specifically for the Caliburn G3, these pods deliver crisp flavour and satisfying vapour in your choice of 0.6 ohm, 0.9 ohms or 1.2-ohm resistance. An enhanced mesh coil provides a balanced vaping experience whether you prefer restrictive direct-lung or tighter mouth-to-lung draws. The pods feature a leak-resistant design and plug directly into your Caliburn G3 kit for an easy, tool-free replacement. Keep a pack handy so you’re never without the flavour and vapour that makes the Caliburn G3 an instant classic, now in a compact, ergonomic design. Make the most of your Caliburn G3’s full potential with pods made just for it.
+
+Integrated G3 coil cartridge
+Leak-Free
+Pro-FOCS flavour adjustment technology
+G3 pod offers more efficient airflow
+Side-filling
+Resistances:
+
+0.6Ω RDL
+0.9Ω RDL/MTL
+1.2Ω MTL`,
+},
+{
+  id:'product-85',
+title:'Uwell Caliburn G3 Pod-PACK OF 4 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2024/03/images-3-510x510.jpeg',
+price:'2000',
+price2:'2300',
+image2:'',
+desc:`Keep your Uwell Caliburn G3 kit hitting high notes with these replacement pods. Designed specifically for the Caliburn G3, these pods deliver crisp flavour and satisfying vapour in your choice of 0.6 ohm, 0.9 ohms or 1.2-ohm resistance. An enhanced mesh coil provides a balanced vaping experience whether you prefer restrictive direct-lung or tighter mouth-to-lung draws. The pods feature a leak-resistant design and plug directly into your Caliburn G3 kit for an easy, tool-free replacement. Keep a pack handy so you’re never without the flavour and vapour that makes the Caliburn G3 an instant classic, now in a compact, ergonomic design. Make the most of your Caliburn G3’s full potential with pods made just for it.
+
+Integrated G3 coil cartridge
+Leak-Free
+Pro-FOCS flavour adjustment technology
+G3 pod offers more efficient airflow
+Side-filling
+Resistances:
+
+0.6Ω RDL
+0.9Ω RDL/MTL
+1.2Ω MTL`,
+},{
+  id:'product-86',
+title:'Uwell Caliburn A3/A3s/AK3 Replacement Pods 1.0Ω – pack of 4 Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2024/08/uwell-crown-x-pods-5.3ml-pack-of-2-72952-p-510x510.jpg',
+price:'2000',
+price2:'2500',
+image2:'https://yoyovapes.com/wp-content/uploads/2023/02/uwell_caliburn_a3_replacement_pods_dr_vapes_592x592-510x510.webp',
+desc:`The Uwell Caliburn A3 Replacement Pods feature a capacity of 2ml and is designed for use with the UWELL Caliburn A3 Pod System. The refillable UWELL Caliburn A3 replacement pod has a top-fill port and a removable mouthpiece. The visibility of the pod allows for easy tracking of e-juice levels. Furthermore, the magnetic connection between the pod and the device ensures a secure fit. Caliburn A3 Replacement Pod comes in a 4-Pack with an integrated 1.0ohm meshed coil.
+Uwell Caliburn A3 Replacement Pods Features
+
+Uwell Caliburn A3 Pod Series
+Pod Capacity: 2ml
+1.0ohm Meshed Pod Pre-Installed
+Top Fill System
+E-Liquid Viewing Window
+Magnetic Pod Connection
+What’s Included
+
+4x Uwell Caliburn A3 Replacement Pods`,
+},{
+  id:'product-87',
+title:'ORIGINAL JUUL CHARGER',
+image:'https://yoyovapes.com/wp-content/uploads/2022/06/IMG-20220627-WA0003-510x510.jpg',
+price:'1500',
+price2:'2000',
+image2:'',
+desc:`ORIGINAL JUUL CHARGER`,
+},{
+  id:'product-88',
+title:'SMOK NFIX PRO REPLACEMENT PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2022/08/SmokNfixProEmptyReplacementPod-2_600x-510x510.webp',
+price:'600',
+price2:'700',
+image2:'',
+desc:`Shop the SMOK NFIX Pro Replacement Pods, featuring a 2mL capacity, side fill system, and utilizes the LP1 Coil Series to create unrivaled vapor and flavor.
+
+SMOK NFIX PRO Replacement Pods Features:
+2mL Refillable Pod
+Side Fill System – Silicone Stoppered
+LP1 Mesh Coil Series
+0.9ohm LP1 Mesh Coils
+1.2ohm LP1 Mesh Coils
+Press-Fit Coil Installation
+Magnetic Pod Connection`,
+},{
+  id:'product-89',
+title:'SMOK Stick M17 CORE COILS (0.6 Ohm) – Pack of 5 Coils',
+image:'https://yoyovapes.com/wp-content/uploads/2022/08/smok_stick_m17_replacement_coils_1-510x510.jpg',
+price:'1400',
+price2:'1800',
+image2:'',
+desc:`0.6 Ohm coils for the brand new SMOK M17 All In One Vape Pen
+Stainless Steel and Organic Cotton
+Recommended Wattage: 25w-45w (Best 35w)
+Keep this product out of the reach of children
+This product contains nicotine which is highly addictive substance, the following warning only applies when the product is used with nicotine containing e-liquid.`,
+},{
+  id:'product-90',
+title:'UWELL CALIBURN A2/A2S/AK2 PODS 1.2OHM – PACK OF 2 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2022/10/cbe61b73-46bb-bcab-8c1a-63070faee164-510x510.jpg',
+price:'1000',
+price2:'1200',
+image2:'https://yoyovapes.com/wp-content/uploads/2022/10/Caliburn-A2-Side-Refilling-Pod-1-510x510.webp',
+desc:`Caliburn A2S Replacement Pod 1.2ohm by UWELL (2pcs/pack)
+
+The Uwell Caliburn A2S Replacement Pod is the original pod cartridge designed for Caliburn A2S Pod System, also compatible with Caliburn A2. Featuring a silicone stoppered side filling to hold 2.0ml of your favorite E-juices or nicotine salts, the Caliburn A2S Pod comes with an integrated 1.2ohm mesh coil to provide delicious vapor.
+
+Uwell Caliburn A2S Replacement Pod Features:
+
+For Caliburn A2S Pod System
+Compatible with Caliburn A2
+2.0ml Pod Capacity
+Silicone Stoppered Side Filling
+Integrated 1.2ohm Mesh Coil
+Magnetic Pod Connection
+Easy to Replace
+Package Includes:
+
+2 x Uwell Caliburn A2S Replacement Pod`,
+},{
+  id:'product-91',
+title:'UWELL CALIBURN A2/A2S/AK2 PODS 1.2OHM – PACK OF 4 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2022/10/CaliburnA2SPodReplacement-Uwell-1.2ohm_500x.webp',
+price:'2000',
+price2:'2100',
+image2:'https://yoyovapes.com/wp-content/uploads/2022/10/Caliburn-A2-Side-Refilling-Pod-1-510x510.webp',
+desc:`Caliburn A2S Replacement Pod 1.2ohm by UWELL (4pcs/pack)
+
+The Uwell Caliburn A2S Replacement Pod is the original pod cartridge designed for Caliburn A2S Pod System, also compatible with Caliburn A2. Featuring a silicone stoppered side filling to hold 2.0ml of your favorite E-juices or nicotine salts, the Caliburn A2S Pod comes with an integrated 1.2ohm mesh coil to provide delicious vapor.
+
+Uwell Caliburn A2S Replacement Pod Features:
+
+For Caliburn A2S Pod System
+Compatible with Caliburn A2
+2.0ml Pod Capacity
+Silicone Stoppered Side Filling
+Integrated 1.2ohm Mesh Coil
+Magnetic Pod Connection
+Easy to Replace
+Package Includes:
+
+4 x Uwell Caliburn A2S Replacement Pod`,
+},{
+  id:'product-92',
+title:'UWELL CALIBURN X EMPTY POD CARTRIDGE 3ML',
+image:'https://yoyovapes.com/wp-content/uploads/2022/11/UWELLCALIBURNXEMPTYREPLACEMENTPOD1-510x510.webp',
+price:'700',
+price2:'800',
+image2:'https://yoyovapes.com/wp-content/uploads/2022/11/caliburn-x-empty-pods-2pk-800x800-1-510x510.webp',
+desc:`Uwell Caliburn X Empty Pod Cartridge
+
+Uwell Caliburn X Empty Pod Cartridge is the perfect companion for the newly released Uwell Caliburn X Kit. Having a few spares does no harm and can ensure you have several e-liquids of your choice on the go! Fear not these are available with XL capacity and come in 2 pieces per pack!
+
+These replacement pods are compatible with the Caliburn Series Coils which are simply pushed in at the base ensuring they line up with the recess of the pod itself. Fitted with good quality O rings these are claimed to be leak free.
+
+Uwell Caliburn X Empty Pod Cartridge Parameters
+Brand: Uwell
+Unit: 2pcs/pack
+Capacity: XL
+Compatible with: All Caliburn G and G2 Coils
+Package: Simple Packing
+
+It comes with
+x2 pcs per pack`,
+},{
+  id:'product-93',
+title:'Vaporesso Luxe Q/Q2 Replacement Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2022/08/vaporesso_luxe_q_replacement_pods_0.8ohm_packaging_1024x1024@2x.jpg',
+price:'1100',
+price2:'1500',
+image2:'https://yoyovapes.com/wp-content/uploads/2022/08/2397d9_6546546c9c104a309b46bd94629d97dd_mv2-400x400.jpg',
+image3:'https://yoyovapes.com/wp-content/uploads/2022/08/vaporesso_luxe_q_replacement_pods_0.8ohm_packaging_1024x1024@2x.jpg',
+colors:['0.8 ohm mesh (pack of 2)','1.2 ohm mesh (pack of 2)'],
+desc:`Shop the Vaporesso LUXE Q Replacement Pods, featuring a 2mL capacity, integrated 0.8ohm or 1.2ohm coils, and offers a leak-free top fill system.
+
+Vaporesso LUXE Q Replacement Pods Features:
+
+2mL Pod Capacity
+
+E-Juice Viewing Window
+
+Top Fill System – Mouthpiece Cover
+
+SSS Leak-Resistant Technology
+
+Integrated 0.8ohm Mesh Coil
+
+Integrated 1.2ohm Mesh Coil
+
+Magnetic Pod Connection
+
+Make sure to properly prime each coils and pods before use.`,
+},{
+  id:'product-94',
+title:'UWELL CALIBURN G2 REPLACEMENT PODS – Pack of 2 Pods',
+image:'https://yoyovapes.com/wp-content/uploads/2022/03/uwell_-_caliburn_g2_empty_cartridge_-_accessories_-_2ml.png',
+price:'1200',
+price2:'1400',
+image2:'',
+desc:`Discover the Uwell Caliburn G2 Replacement Pods, featuring a 2mL pod capacity, Caliburn G2 Coil Series compatibility, and leak-free top fill system.
+
+Uwell Caliburn G2 Replacement Pods Features:
+2mL Pod Capacity
+Top Fill System – Mouthpiece Cap
+E-Liquid Viewing Window
+Uwell Caliburn G2 Coil Series
+Press Fit Coil Installation
+Magnetic Pod Connection`,
+},{
+  id:'product-95',
+title:'UWELL CALIBURN G2 REPLACEMENT PODS – SINGLE POD',
+image:'https://yoyovapes.com/wp-content/uploads/2022/08/uwell-caliburn-g2-replacement-pod_2-510x510.jpg',
+price:'700',
+price2:'800',
+image2:'',
+desc:`Discover the Uwell Caliburn G2 Replacement Pods, featuring a 2mL pod capacity, Caliburn G2 Coil Series compatibility, and leak-free top fill system.
+
+Uwell Caliburn G2 Replacement Pods Features:
+2mL Pod Capacity
+Top Fill System – Mouthpiece Cap
+E-Liquid Viewing Window
+Uwell Caliburn G2 Coil Series
+Press Fit Coil Installation
+Magnetic Pod Connection`,
+},{
+  id:'product-96',
+title:'SMOK Stick M17 CORE COILS (0.6 Ohm) – Pack of 5 Coils',
+image:'https://yoyovapes.com/wp-content/uploads/2022/08/smok_stick_m17_replacement_coils_1-510x510.jpg',
+price:'1400',
+price2:'1800',
+image2:'',
+desc:`0.6 Ohm coils for the brand new SMOK M17 All In One Vape Pen
+Stainless Steel and Organic Cotton
+Recommended Wattage: 25w-45w (Best 35w)
+Keep this product out of the reach of children
+This product contains nicotine which is highly addictive substance, the following warning only applies when the product is used with nicotine containing e-liquid.`,
+},{
+  id:'product-97',
+title:'VAPORESSO QF REPLACEMENT COILS – Pack of 3 Coils',
+image:'https://yoyovapes.com/wp-content/uploads/2022/02/vaporesso_skrr_qf_replacement_mesh_coils.jpg',
+price:'2500',
+price2:'1399',
+colors:['Mesh 0.2ohm','Strip 0.15ohm'],
+image2:'',
+desc:`The Vaporesso QF Replacement Coils uses the combination of cotton and flax materials for a long-lasting yet flavor-enhanced performance with the following coil options: 0.2ohm QF Meshed and 0.15ohm QF Strip, and 0.5ohm QF CCELL. Comes in a package of three coils. It is introduced with the SKRR Sub-Ohm Tank and it is compatible with the Vaporesso GT Coils, but does not fit in small tanks such as the Cascade Baby or smaller-diameter glass.
+
+Compatibility:
+Vaporesso LUXE 220W Starter Kit
+Vaporesso SKRR Sub-Ohm Tank
+Vaporesso SKRR-S Sub-Ohm Tank
+Vaporesso SKRR-S Mini Sub-Ohm Tank
+Vaporesso SKY SOLO PLUS Starter Kit
+
+Vaporesso QF Replacement Coils Features:
+
+Vaporesso QF Coil System – Flax & Cotton Wicks
+0.2ohm QF Meshed – Rated for 55-85W
+0.15ohm QF Strip – Rated for 50-80W
+0.5ohm QF CCELL SS316L – Rated for 50-75W
+Vaporesso GT Coil Compatible — Does not fit with smaller tanks.`,
+},{
+  id:'product-98',
+title:'UWELL CALIBURN A2, A2S & AK2 REPLACEMENT PODS 0.9ohm – PACK OF 2 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2022/03/IMG_20210910_062748-510x505.jpg',
+price:'1000',
+price2:'1500',
+image2:'',
+desc:`Check out the Uwell Caliburn A2 Replacement Pods, featuring a 2mL pod capacity, 0.9ohm meshed coil, and is equipped Pro FOCS technology.
+
+Uwell Caliburn A2 Replacement Pods Features:
+Uwell Caliburn A2 Pod Series
+2mL Pod Capacity
+Top Fill System
+0.9ohm UN2 Meshed Coil Pod
+Pro-FOCS Technology
+Magnetic Pod Connection
+
+Make sure to properly prime each coils and pods before use.`,
+},{
+  id:'product-99',
+title:'UWELL CALIBURN A2, A2s & AK2 REPLACEMENT PODS 0.90hm – PACK OF 4 PODS',
+image:'https://yoyovapes.com/wp-content/uploads/2022/01/uwell-caliburn-a2-replacement-pods-p9811-31251_medium_cd595523-95de-4921-8b9d-077f804e5727_540x-510x510.jpg',
+price:'2000',
+price2:'2500',
+image2:'',
+desc:`Check out the Uwell Caliburn A2 Replacement Pods, featuring a 2mL pod capacity, 0.9ohm meshed coil, and is equipped Pro FOCS technology.
+
+Uwell Caliburn A2 Replacement Pods Features:
+Uwell Caliburn A2 Pod Series
+2mL Pod Capacity
+Top Fill System
+0.9ohm UN2 Meshed Coil Pod
+Pro-FOCS Technology
+Magnetic Pod Connection
+
+Make sure to properly prime each coils and pods before use.`,
+},{
+  id:'product-100',
+title:'Smok LP1 Replacement Coils ( Pack of 5 Coils )',
+image:'https://yoyovapes.com/wp-content/uploads/2021/07/smok-novo_4_replacement_coils-5pk_500x.png.webp',
+price:'2500',
+price2:'1999',
+image2:'',
+colors:['0.8ohm LP1 DC MTL Coil'],
+desc:`The SMOK Novo 4 Replacement Coil is the original LP1 Coil Series for Novo 4 Pod. Adopting three silicone rings with press fit coil installation for a perfect leakproof performance, the Novo 4 Coil features a 0.8ohm Mesh Coil, 0.8ohm DC MTL Coil and 1.0ohm DC MTL Coil to extract purest flavor from your favorite E-juices or nic salts.
+
+Get the replacement coil to refresh your Novo 4 Pod to a peak performance!
+
+SMOK Novo 4 Replacement Coil Features:
+SMOK LP1 Coil Series
+0.8ohm LP1 Mesh Coil (Best 12W)
+0.8ohm LP1 DC MTL Coil (12 – 25W)
+1.0ohm LP1 DC MTL Coil (10 – 15W)
+Three Rings Leakproof Design
+Press Fit Coil Installation
+Easy to Replace
+Package Includes:
+5 x SMOK Novo 4 Replacement Coil`,
+}]
+const concated = combinedArray.concat(snusarr,regEj,iqos,coils)
+const combinedArray_final = {combinedArray,snusarr,concated,regEj,iqos,coils}
 export default combinedArray_final

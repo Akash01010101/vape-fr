@@ -5,13 +5,18 @@ import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {  
   const navigate = useNavigate();  
+  const existingCart = JSON.parse(localStorage.getItem('cartItems')) || [];  
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);  
   const [menuVisible, setMenuVisible] = useState(false); // Manage menu visibility  
 
   const handleResize = () => {  
     setIsMobile(window.innerWidth < 768);  
   };  
-
+  const handleSearch = (event) => {  
+    event.preventDefault(); // Prevent default form submission  
+    const searchInput = event.target.search.value; // Get the value from the search input  
+    navigate(`/search?query=${encodeURIComponent(searchInput)}`); // Navigate to search results with query  
+  }; 
   const hidemenu = () => {  
     setMenuVisible(false);  
   };  
@@ -36,7 +41,6 @@ const Navbar = () => {
   return (  
     <nav style={{ backgroundColor: 'black', padding: '10px', position: 'sticky', top: '0' }}>  
       <div className='navx' style={{ color: 'white' }}>  
-
         <div className='navx'>  
           {isMobile ? (  
             <>  
@@ -66,11 +70,28 @@ const Navbar = () => {
                     </g>  
                   </svg>  
                   <img className='logo' src={logo} onClick={() => { navigate('/'); hidemenu(); }} alt="xhwww" />  
-                  <img className='cart' onClick={() => { navigate('/Cart'); }} src={cart} alt="" />  
+                  <div style={{ position: 'relative' }}>  
+                    <img className='cart' onClick={() => { navigate('/Cart'); }} src={cart} alt="Cart" />  
+                    {/* Cart item count badge */}  
+                    {existingCart.length > 0 && (  
+                      <span style={{  
+                        position: 'absolute',  
+                        top: '-5px',  
+                        right: '-10px',  
+                        backgroundColor: 'red',  
+                        color: 'white',  
+                        borderRadius: '50%',  
+                        padding: '2px 5px',  
+                        fontSize: '12px',  
+                      }}>  
+                        {existingCart.length}  
+                      </span>  
+                    )}  
+                  </div>  
                 </div>  
                 <div className="nav-search">  
-                  <form>  
-                    <input id='search' type="text" placeholder='Search' />  
+                  <form onSubmit={handleSearch}>  
+                  <input id='search' name='search' type="text" placeholder='Search' />  
                   </form>  
                 </div>  
               </div>  
@@ -79,10 +100,27 @@ const Navbar = () => {
             <>  
               <div className="nav-search">  
                 <img className='logo' src={logo} onClick={() => { navigate('/'); }} alt="xhwww" />  
-                <form>  
-                  <input type="text" placeholder='Search' id="search" />  
-                </form>  
-                <img className='cart' onClick={() => { navigate('/Cart'); }} src={cart} alt="" />  
+                <form onSubmit={handleSearch}>  
+                  <input id='search' name='search' type="text" placeholder='Search' />  
+                  </form>    
+                <div style={{ position: 'relative' }}>  
+                  <img className='cart' onClick={() => { navigate('/Cart'); }} src={cart} alt="Cart" />  
+                  {/* Cart item count badge */}  
+                  {existingCart.length > 0 && (  
+                    <span style={{  
+                      position: 'absolute',  
+                      top: '-5px',  
+                      right: '-10px',  
+                      backgroundColor: 'red',  
+                      color: 'white',  
+                      borderRadius: '50%',  
+                      padding: '2px 5px',  
+                      fontSize: '12px',  
+                    }}>  
+                      {existingCart.length}  
+                    </span>  
+                  )}  
+                </div>  
               </div>  
               <ul className="menu-list">  
                 <li onClick={() => handleNavigation('/')}>HOME</li>  

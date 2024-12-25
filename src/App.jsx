@@ -11,6 +11,7 @@ import Disposable from './pages/Disposable'
 import Iqos from './pages/Iqos'
 import Snus from './pages/Snus'
 import CartPage from './pages/CartPage';
+import SearchResults from './pages/SearchResults';
 function App() {
 
   return (
@@ -28,6 +29,7 @@ function App() {
     <Route path="/Snus" element={<Snus />} />
     <Route path="/Product/:id" element={<Productpage />} />
     <Route path="/Cart" element={<CartPage />} />
+    <Route path="/search" element={<SearchResults />} />
     </Routes>
    </Router>
    </>

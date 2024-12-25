@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.prod-title{
+  font-size: 13px;
+}
 .ham{
   width: 30px;
   height: 30px;
@@ -122,7 +125,7 @@ nav{
   top:10vh;
   bottom: 0;
   background-color: black;
-  transition: transform 0.5s ease, opacity 0.5s ease; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 .menu-hidden{
   transform: translateX(-200%);  
@@ -133,7 +136,6 @@ nav{
   padding: 20px;
   cursor: pointer;
 }
-
 
 
 
