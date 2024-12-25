@@ -83,8 +83,8 @@ function Productpage() {
           <b style={{ fontSize: "30px" }}>{product.title}</b>  
           <div>  
             <p style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>  
-              {product.price2 ? <span style={{ textDecoration: 'line-through', marginRight: '10px' }}>{product.price}</span> : null}  
-              {product.price2 || product.price}  
+              {product.price2 ? <span style={{ textDecoration: 'line-through', marginRight: '10px' }}>{product.price2}</span> : null}  
+              {product.price}  
             </p>  
           </div>  
           {product.colors && (  

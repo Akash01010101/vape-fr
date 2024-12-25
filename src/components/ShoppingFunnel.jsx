@@ -63,12 +63,6 @@ const ShoppingFunnel = () => {
             and performance.
           </p>
         </div>
-        {/* Slider Dots */}
-        <div className="flex justify-center mt-4 space-x-2">
-          <div className="w-3 h-3 bg-white rounded-full"></div>
-          <div className="w-3 h-3 bg-gray-500 rounded-full"></div>
-          <div className="w-3 h-3 bg-gray-500 rounded-full"></div>
-        </div>
       </section>
     </div>
   );

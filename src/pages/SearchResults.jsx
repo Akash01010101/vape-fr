@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';  
 import { useLocation, useNavigate } from 'react-router-dom';  
 import combinedArray_final from '../components/Items'; // Ensure the path is correct  
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const SearchResults = () => {  
   const location = useLocation();  
@@ -28,13 +30,15 @@ const SearchResults = () => {
   };  
 
   return (  
+    <>
+    <Navbar/>
     <div style={{ padding: '20px' }}>  
       <h2>Search Results for: "{searchTerm}"</h2>  
       {filteredResults.length > 0 ? (  
         <div style={{  
-          display: 'grid',  
-          gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', // Responsive grid layout  
-          gap: '20px' // Gap between grid items  
+          display:'flex',
+          flexWrap:'wrap', 
+          gap:'5px',
         }}>  
           {filteredResults.map((item, index) => (  
             <div key={index} 
@@ -42,6 +46,8 @@ const SearchResults = () => {
                 handleNavigation(`/product/${item.id}`);
             }}
              style={{  
+                cursor:'pointer',
+                maxWidth:'170px',
               border: '1px solid #ccc',  
               borderRadius: '8px',  
               padding: '10px',  
@@ -61,6 +67,8 @@ const SearchResults = () => {
         <p>No results found!</p>  
       )}  
     </div>  
+    <Footer/>
+    </>
   );  
 };  
 

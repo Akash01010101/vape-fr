@@ -119,6 +119,9 @@ nav{
   justify-content: space-evenly;
   margin-top: 10px;
 }
+input{
+  color: black;
+}
 #menu{
   position: fixed;
   left: 0;
