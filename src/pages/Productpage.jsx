@@ -80,9 +80,9 @@ function Productpage() {
           })}  
         </div>  
         <div style={{ flex: '1', maxWidth: '500px' }}>  
-          <b style={{ fontSize: "30px" }}>{product.title}</b>  
+          <b style={{ fontSize: "20px" }}>{product.title}</b>  
           <div>  
-            <p style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>  
+            <p style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '10px' }}>  
               {product.price2 ? <span style={{ textDecoration: 'line-through', marginRight: '10px' }}>{product.price2}</span> : null}  
               {product.price}  
             </p>  

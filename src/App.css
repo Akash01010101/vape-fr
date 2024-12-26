@@ -69,11 +69,13 @@
   margin-bottom: 35px;
   margin-top: 20px;
   width: 85vw;
+ height: auto;
+ max-height: 800px;
   border: none;
   border-radius: 40px;
-overflow: hidden;
-box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);  
-    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */  
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.2);  
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
 }
 
 .cards{
@@ -204,7 +206,7 @@ input{
  }
  .card{
   width: 300px;
-  height: 350px;
+  height: auto;
  }
  .card-con{
   width: 100%;

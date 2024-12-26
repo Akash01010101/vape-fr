@@ -9,9 +9,9 @@ export default function Regular() {
   const [isLoading, setIsLoading] = useState(false);
   const observerRef = useRef(null);
   const nav = useNavigate();
-
   const goToProductDetails = (id) => {
     nav(`/product/${id}`, { state: { productId: id } });
+    window.scrollTo(0,0)
   };
 
   const loadMoreItems = () => {

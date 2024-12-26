@@ -29,6 +29,7 @@ const Navbar = () => {
   const handleNavigation = (path) => {  
     navigate(path);  
     hidemenu();  // Hide the menu after navigation  
+    window.scrollTo(0,0)
   };  
 
   useEffect(() => {  

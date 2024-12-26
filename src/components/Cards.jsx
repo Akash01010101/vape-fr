@@ -8,7 +8,11 @@ import cardimg6 from '../assets/Cards/image copy 5.png'
 import cardimg7 from '../assets/Cards/image copy 6.png'
 import { useNavigate } from 'react-router-dom';
 function Cards() {
-  const nav = useNavigate();
+  const navi = useNavigate();
+  const nav = (path)=>{
+    navi(path);
+    window.scrollTo(0.0);
+  }
   return (
     <div className="card-con">
         <div className='cards'>
@@ -20,7 +24,6 @@ function Cards() {
     <div className="card" onClick={()=>{nav('/Juul')}}>
     <img src={cardimg2} alt="" />
     <div className="card-bot"><b>JUUL & ZIIP</b></div>
-
     </div>
     <div className="card" onClick={()=>{nav('/Saltnic')}}>
     <img src={cardimg3} alt="" />

@@ -13,6 +13,7 @@ const SearchResults = () => {
   // Extract search term from query parameters  
   useEffect(() => {  
     const params = new URLSearchParams(location.search);  
+    window.scrollTo(0,0)
     const term = params.get('query') || '';  
     setSearchTerm(term);  
     filterResults(term);  

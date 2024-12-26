@@ -12,6 +12,7 @@ export default function Regular() {
 
   const goToProductDetails = (id) => {
     nav(`/product/${id}`, { state: { productId: id } });
+    window.scrollTo(0,0)
   };
 
   const loadMoreItems = () => {
