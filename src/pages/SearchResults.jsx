@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';  
+import { useEffect, useState } from 'react';  
 import { useLocation, useNavigate } from 'react-router-dom';  
-import combinedArray_final from '../components/Items'; // Ensure the path is correct  
+import combinedArray_final from '../components/Items'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -20,8 +20,7 @@ const SearchResults = () => {
   }, [location]);  
   const handleNavigation = (path) => {  
     navigate(path);  
-    hidemenu();  // Hide the menu after navigation  
-    scrollTo(0,0)
+    window.scrollTo(0,0);
   };  
 
   const filterResults = (term) => {  
