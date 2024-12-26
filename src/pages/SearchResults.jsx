@@ -21,6 +21,7 @@ const SearchResults = () => {
   const handleNavigation = (path) => {  
     navigate(path);  
     hidemenu();  // Hide the menu after navigation  
+    scrollTo(0,0)
   };  
 
   const filterResults = (term) => {  
