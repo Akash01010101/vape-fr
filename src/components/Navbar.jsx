@@ -70,9 +70,9 @@ const Navbar = () => {
                       <path fill="#7496c4" d="M38,29v2H2v-2H38 M39,28H1v4h38V28L39,28z"></path>  
                     </g>  
                   </svg>  
-                  <img className='logo' src={logo} onClick={() => { navigate('/'); hidemenu(); }} alt="xhwww" />  
+                  <img className='logo' src={logo} onClick={() => { handleNavigation('/'); hidemenu(); }} alt="xhwww" />  
                   <div style={{ position: 'relative' }}>  
-                    <img className='cart' onClick={() => { navigate('/Cart'); }} src={cart} alt="Cart" />  
+                    <img className='cart' onClick={() => { handleNavigation('/Cart') }} src={cart} alt="Cart" />  
                     {/* Cart item count badge */}  
                     {existingCart.length > 0 && (  
                       <span style={{  
