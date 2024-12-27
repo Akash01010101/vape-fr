@@ -11,7 +11,7 @@ function Cards() {
   const navi = useNavigate();
   const nav = (path)=>{
     navi(path);
-    window.scrollTo(0.0);
+    window.scrollTo(0,0);
   }
   return (
     <div className="card-con">
